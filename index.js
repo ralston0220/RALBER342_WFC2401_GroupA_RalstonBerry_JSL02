@@ -1,3 +1,5 @@
+// This code selects an element by its ID, creates a message including today's date using the `Date` object,
+// and then updates the text content of the selected element to display the message.
 const welcomeMessage = () => {
     const today = new Date().toDateString();
     document.getElementById('welcomeMessage').textContent = `🤸🏾‍♀️ Welcome to Your Fitness Tracker 🥗 Today is ${today}`;
